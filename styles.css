@@ -1,0 +1,391 @@
+body {
+    background-color: #F8EDE5; 
+    margin: 0;
+    padding: 0;
+}
+
+.brand-container {
+    background-color: #F8EDE5; 
+    height: 10vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; 
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: calc(5vh / 2); 
+}
+
+.brand-container h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    color: #B8860B;
+    margin-left: 10px; 
+    margin-right: calc(6.25% - 5px); 
+    margin-top: 20px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boutique-text {
+    font-size: 1em;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+    margin-left: 10px; 
+    margin-right: 20px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    background-color: #F8EDE5;
+    padding: 10px;
+    margin-left: 10px; 
+}
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #3E2723;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+.menu ul li a:hover {
+    color: #B8860B; 
+}
+
+.top-right-box {
+    position: fixed;
+    top: calc(10vh + 10px); 
+    right: 50px; 
+    transform: translateY(-50%); 
+    padding: 30px 20px; 
+    border-radius: 10px; 
+    background-color: #B8860B; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+}
+
+.top-right-box .book-now-btn {
+    background-color: transparent; 
+    color: #F8EDE5; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.top-right-box .book-now-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.contact-details {
+    margin-left: calc(6.25% - 5px); 
+}
+
+.hours-details {
+    margin-right: calc(6.25% - 5px); 
+}
+
+.contact-details,
+.hours-details {
+    font-family: 'Playfair Display', serif; 
+}
+
+.home-image {
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+}
+
+.service-section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.service-title {
+    font-size: 1.5em;
+    color: #B8860B;
+    font-family: 'Playfair Display', serif;
+}
+.service-description {
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+    flex: 1;
+}
+.service-prices {
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+    min-width: 200px;
+}
+
+.stylist-section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #B8860B; 
+    border-radius: 10px; 
+    color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+.section-title {
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.stylist-name {
+    font-size: 1.5em; 
+    margin-bottom: 20px; 
+}
+.stylist-info {
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    display: none; 
+}
+.meet-stylists {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+    font-size: 2em;
+}
+.stylist-img {
+    width: 100%;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+.click-me {
+    cursor: pointer;
+    background-color: #fff;
+    color: #B8860B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.booking-section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.form-group label {
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Playfair Display', serif;
+}
+.next-btn {
+    background-color: #B8860B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.next-btn:hover {
+    background-color: #a57509;
+}
+
+.client-section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.form-group label {
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Playfair Display', serif;
+}
+.submit-btn {
+    background-color: #B8860B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #a57509;
+}
+
+.confirmation-section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+.section-title {
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+}
+.confirmation-message {
+    font-family: 'Playfair Display', serif;
+    color: #3E2723;
+    margin-bottom: 20px;
+}
+.booking-number {
+    font-family: 'Playfair Display', serif;
+    color: #B8860B;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.back-to-home {
+    background-color: #B8860B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.back-to-home:hover {
+    background-color: #a57509;
+}
+
+h2 {
+    text-align: center; 
+    font-family: 'Playfair Display', serif; 
+    margin-bottom: 30px; 
+}
+
+.event-section {
+    text-align: center; 
+}
+
+.event-section img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 15px; 
+}
+
+.event-section h2 {
+    color: #B8860B; 
+}
+
+.event-section p {
+    color: #3E2723; 
+}
+
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-container {
+    display: none;
+    position: fixed;
+    top: calc(50% - 100px); 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.tooltip-container.show {
+    display: block;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.page.active {
+    opacity: 1;
+    pointer-events: auto;
+}

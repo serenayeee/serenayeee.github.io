@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy's Studio - Booking</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="top-right-box">
+            <a href="booking.html" class="book-now-btn">Book Now</a>
+        </div>
+        <div class="row">
+            <div class="col-12 brand-container">
+                <h1>Wendy's Studio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="boutique-text">*** Boutique Hair Salon ***</p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="stylists.html">Stylists</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="studioInfo.html">Location</a></li>
+                        <li><a href="studioInfo.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 booking-section">
+                <h2 class="section-title">Book an Appointment</h2>
+                <form id="booking-form" action="client.html">
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select class="form-control" id="service" required>
+                            <option value="">Choose...</option>
+                            <option value="Stylish Haircut">Stylish Haircut</option>
+                            <option value="Blow-Dry with Styling">Blow-Dry with Styling</option>
+                            <option value="Single Process Color">Single Process Color</option>
+                            <option value="Highlights">Highlights</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="stylist">Preferred Stylist</label>
+                        <select class="form-control" id="stylist" required>
+                            <option value="">Choose...</option>
+                            <option value="Bob">Bob</option>
+                            <option value="Alice">Alice</option>
+                            <option value="Charlie">Charlie</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="num-clients">Number of Guests</label>
+                        <select class="form-control" id="num-clients" required>
+                            <option value="">Choose...</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2+">2+</option> 
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <textarea class="form-control" id="notes" rows="4" placeholder="Please specify your number of guests and any additional information here"></textarea>
+                    </div>
+                    <button type="submit" class="next-btn">Next</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

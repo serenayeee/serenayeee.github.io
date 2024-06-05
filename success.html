@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="top-right-box">
+            <a href="booking.html" class="book-now-btn">Book Now</a>
+        </div>
+        <div class="row">
+            <div class="col-12 brand-container">
+                <h1>Wendy's Studio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="boutique-text">*** Boutique Hair Salon ***</p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="stylists.html">Stylists</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="studioInfo.html">Location</a></li>
+                        <li><a href="studioInfo.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 confirmation-section">
+                <h2 class="section-title">Booking Confirmation</h2>
+                <p class="confirmation-message">Your reservation request has been received and confirmed! You will receive a confirmation email very soon.</p>
+                <p class="booking-number" id="booking-number">Booking Number: #</p>
+                <a href="index.html" class="back-to-home">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var randomBookingNumber = Math.floor(Math.random() * 1000000000) + 1;
+        document.getElementById('booking-number').innerText += randomBookingNumber;
+    </script>
+</body>
+</html>
+

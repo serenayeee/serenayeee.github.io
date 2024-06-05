@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy's Studio - Stylists</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="top-right-box">
+            <a href="booking.html" class="book-now-btn">Book Now</a>
+        </div>
+        <div class="row">
+            <div class="col-12 brand-container">
+                <h1>Wendy's Studio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="boutique-text">*** Boutique Hair Salon ***</p>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="stylists.html">Stylists</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="studioInfo.html">Location</a></li>
+                        <li><a href="studioInfo.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 meet-stylists">
+                <h2>Meet Your Stylists</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="stylist-section">
+                    <h2 class="stylist-name">Bob</h2>
+                    <img src="Stylist1.jpeg" alt="Bob" class="stylist-img">
+                    <div class="stylist-info" id="stylist-info-1">
+                        <p>Senior Stylist</p>
+                        <p>Specializes in: Haircuts, Coloring</p>
+                        <p>Experience: 10 years</p>
+                        <p>Background: Bob has been passionate about hair styling since a young age. He has trained under some of the industry's top professionals and prides himself on his attention to detail and ability to create unique looks for his clients.</p>
+                    </div>
+                    <div class="click-me" onclick="toggleStylistInfo(1)">Click Me</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stylist-section">
+                    <h2 class="stylist-name">Alice</h2>
+                    <img src="Stylist2.jpeg" alt="Alice" class="stylist-img">
+                    <div class="stylist-info" id="stylist-info-2">
+                        <p>Master Stylist</p>
+                        <p>Specializes in: Styling, Highlights</p>
+                        <p>Experience: 15 years</p>
+                        <p>Background: Alice's passion for hair styling began at a young age, and she has honed her skills over the years through extensive training and hands-on experience. She loves experimenting with new styles and techniques to create personalized looks for her clients.</p>
+                    </div>
+                    <div class="click-me" onclick="toggleStylistInfo(2)">Click Me</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stylist-section">
+                    <h2 class="stylist-name">Charlie</h2>
+                    <img src="Stylist3.jpeg" alt="Charlie" class="stylist-img">
+                    <div class="stylist-info" id="stylist-info-3">
+                        <p>Junior Stylist</p>
+                        <p>Specializes in: Blowouts, Updos</p>
+                        <p>Experience: 5 years</p>
+                        <p>Background: Charlie discovered her passion for hair styling at a young age and has been pursuing it ever since. She enjoys staying updated on the latest trends and techniques in the industry and loves helping her clients achieve their desired looks.</p>
+                    </div>
+                    <div class="click-me" onclick="toggleStylistInfo(3)">Click Me</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
